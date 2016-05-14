@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_add_to_cart_ajax'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.summary     = 'Add item to cart with using AJAX'
   s.description = 'Add item to cart with using AJAX'
   s.required_ruby_version = '>= 2.0.0'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.0.0'
+  s.add_dependency 'spree_core', '~> 3.1.0.rc1'
   s.add_dependency 'jquery-form-rails'
 
   s.add_development_dependency 'capybara', '~> 2.4'
